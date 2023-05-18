@@ -1,1 +1,5 @@
-source ~/.bash_profile
+#!/bin/bash
+
+cat .bash_profile >> ~/.bashrc
+
+echo "Installation complete."
